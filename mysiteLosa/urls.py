@@ -16,3 +16,8 @@ il problema dell'harcoded è che cambia l'URL con tanti templates, una volta che
 puoi rimuovere  una parte dell'url inserendo {% url %}.
 Namespacing URL names servono perché in un progetto Django ci possono essere varie app e così si possono differenziare i nomi degli URL e quindi non fare casino tra questi
 """
+
+"""
+request.post è simile ad un dizionario e se inseriamo ad esempio request.POST['choice'] ti da l'ID selezionato come una stringa
+la reverse() aiuta ad evitare un URL hardcode nella funzione views
+"""

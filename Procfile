@@ -1,0 +1,1 @@
+web: gunicorn mysiteLosa.wsgi --log-file - 
